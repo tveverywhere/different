@@ -1,0 +1,18 @@
+{
+  "name": "differentjs",
+  "version": "0.0.1",
+  "description": "Find created deleted and new in array of file compare",
+  "author": "Anuj Pandey <a@e10.in> (http://e10.in)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tveverywhere/different.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tveverywhere/different/issues"
+  },
+  "main": "index",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "somewhere": "^0.1.2"
+  }
+}
