@@ -67,8 +67,8 @@ var Different=function(args){
 		}
 	}
 
-	different.prototype.find = function(news) {
-		db.connect(path.join(__dirname,'cache',args.name+'.json'));
+	Different.prototype.find = function(news) {
+		db.connect(path.join(path.dirname(require.main.filename),'cache',args.name+'.json'));
 		_prepare(news);
 	};
 }
