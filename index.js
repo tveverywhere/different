@@ -72,7 +72,7 @@ var Different=function(args){
 		_prepare(news);
 	};
 }
-util.inherits(different, EventEmitter);
+util.inherits(Different, EventEmitter);
 exports = module.exports = function(args) {
-  return new different(args);
+  return new Different(args);
 };
